@@ -59,6 +59,7 @@
     <Compile Include="Logic\Location.cs" />
     <Compile Include="Logic\WPF.cs" />
     <Compile Include="Logic\XML.cs" />
+    <Compile Include="Logic\TaxiDriver.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

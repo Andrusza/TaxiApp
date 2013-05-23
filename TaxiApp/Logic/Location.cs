@@ -1,6 +1,5 @@
 ﻿using Microsoft.Maps.MapControl.WPF;
 using System;
-using System.Collections.Generic;
 using System.Globalization;
 
 namespace TaxiApp
@@ -72,11 +71,10 @@ namespace TaxiApp
             set { address = value; }
         }
 
-        public ViaLocation(String address)
+        public ViaLocation(String address, int id)
         {
+            Id = id;
             Address = address;
-            instanceId = globalId;
-            globalId++;
         }
     }
 }
