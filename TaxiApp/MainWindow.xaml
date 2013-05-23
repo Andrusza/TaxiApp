@@ -1,0 +1,10 @@
+﻿<Window x:Class="TaxiApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+        Title="Taxi Driver 1.0v AUTHOR:ANDRUSZA" Height="600" Width="800">
+    <Grid>
+        <m:Map x:Name="worldMap" CredentialsProvider="Avqh7FnMA4sc2CO93qgYajN2tJ4QbY0r6kk0hshluwp1Q9DLw2r4WUC8TS36Zbvi">
+        </m:Map>
+    </Grid>
+</Window>
