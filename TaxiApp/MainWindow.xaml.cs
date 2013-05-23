@@ -21,6 +21,10 @@ namespace TaxiApp
             drivers.Add(new TaxiDriver(53.228683, 20.781577));
             drivers.Add(new TaxiDriver(52.258683, 20.881577));
             drivers.Add(new TaxiDriver(52.218683, 20.821577));
+            drivers.Add(new TaxiDriver(54.228683, 21.181577));
+            drivers.Add(new TaxiDriver(53.228683, 21.981577));
+            drivers.Add(new TaxiDriver(52.258683, 21.881577));
+            drivers.Add(new TaxiDriver(51.218683, 20.121577));
 
             List<Thread> threads = new List<Thread>();
 

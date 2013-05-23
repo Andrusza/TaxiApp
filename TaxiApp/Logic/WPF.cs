@@ -40,8 +40,8 @@ namespace TaxiApp
         public static List<ViaLocation> RandomLocationsFromOrigin(Location origin, double radius)
         {
             List<ViaLocation> viaLocations = new List<ViaLocation>();
-            int via = rng.Next(2, 10);
-            for (int i = 0; i < via; i++)
+
+            for (int i = 0; i < 2; i++)
             {
                 double lat = WPF.RandomDouble(origin.Latitude - (radius / 110.567), origin.Latitude + (radius / 110.567));
                 double lon = WPF.RandomDouble(origin.Longitude - (radius / 111.321), origin.Longitude + (radius / 111.321));
